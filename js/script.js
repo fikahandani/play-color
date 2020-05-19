@@ -35,3 +35,37 @@ changeRandom.onclick = function(){
     const blue = Math.round(Math.random()*255+1);
     divRandom.style.backgroundColor = 'rgb('+ red +', '+ green +', '+ blue +')';
 }
+
+const sliderRed = document.querySelector('input[name=sliderRed]')
+const sliderGreen = document.querySelector('input[name=sliderGreen]')
+const sliderBlue = document.querySelector('input[name=sliderBlue]')
+
+sliderRed.addEventListener('input', function(){
+    const vRed = sliderRed.value;
+    const vGreen = sliderGreen.value;
+    const vBlue = sliderBlue.value;
+    const setRange = document.getElementById('slider')
+    setRange.style.backgroundColor = 'rgb('+ vRed +', '+ vGreen +', '+ vBlue +')';
+})
+
+sliderGreen.addEventListener('input', function(){
+    const vRed = sliderRed.value;
+    const vGreen = sliderGreen.value;
+    const vBlue = sliderBlue.value;
+    const setRange = document.getElementById('slider')
+    setRange.style.backgroundColor = 'rgb('+ vRed +', '+ vGreen +', '+ vBlue +')';
+})
+
+sliderBlue.addEventListener('input', function(){
+    const vRed = sliderRed.value;
+    const vGreen = sliderGreen.value;
+    const vBlue = sliderBlue.value;
+    const setRange = document.getElementById('slider')
+    setRange.style.backgroundColor = 'rgb('+ vRed +', '+ vGreen +', '+ vBlue +')';
+})
+document.body.addEventListener('mousemove', function(e){
+    const x = Math.round((e.clientX / window.innerWidth)*255)
+    const y = Math.round((e.clientY / window.innerHeight)*255)
+    const setColor = document.getElementById('mouse')
+    setColor.style.backgroundColor = 'rgb('+ x +', '+ y +', 100)';
+})

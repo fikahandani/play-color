@@ -1,6 +1,6 @@
 .container{
     width: 800px;
-    margin: 50px auto;
+    margin: 5px auto;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
@@ -74,8 +74,8 @@
 }
 .random{
     max-width: 800px;
-    height: 80px;
-    margin: 50px auto;
+    height: 90px;
+    margin: 5px auto;
     border: solid black;
     background-color: white;
     border-radius: 4px;
@@ -90,4 +90,57 @@
     background-color: rgb(32, 80, 168);
     border: 0.5px solid black;
     color: white;
+}
+.slider{
+    max-width: 800px;
+    margin: 5px auto;
+    border: solid black;
+    border-radius: 4px;
+    display: flex;
+}
+.slider-red{
+    margin: 20px auto;
+    display: flex;
+}
+.slider-green{
+    margin: 20px auto;
+    display: flex;
+}
+.slider-blue{
+    margin: 20px auto;
+    display: flex;
+   
+}
+.redBox{
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    display: flex;
+    margin: 3px auto;
+    background-color: red;
+}
+
+.greenBox{
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    display: flex;
+    margin: 3px auto;
+    background-color: green;
+}
+.blueBox{
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    display: flex;
+    margin: 3px auto;
+    background-color: blue;
+}
+.mouse{
+    max-width: 800px;
+    height: 90px;
+    background-color: blue;
+    margin: auto;
+    border: solid black;
+    border-radius: 4px;
 }
