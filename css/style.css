@@ -1,0 +1,93 @@
+.container{
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.blue{
+    border: solid black;
+    border-radius: 4px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 3px;
+    display: flex;
+}
+.green{
+    border: solid black;
+    border-radius: 4px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 3px;
+    display: flex;
+}
+.red{
+    border: solid black;
+    border-radius: 4px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 3px;
+    display: flex;
+}
+.changeBlue{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(32, 80, 168);
+    border: 0.5px solid black;
+    color: white;
+}
+.changeGreen{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(32, 80, 168);
+    border: 0.5px solid black;
+    color: white;
+}
+.changeRed{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(32, 80, 168);
+    border: 0.5px solid black;
+    color: white;
+}
+.intoBlue{
+    background-color: blue;
+}
+.intoGreen{
+    background-color: green;
+}
+.intoRed{
+    background-color: red;
+}
+.random{
+    max-width: 800px;
+    height: 80px;
+    margin: 50px auto;
+    border: solid black;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+}
+.changeRandom{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(32, 80, 168);
+    border: 0.5px solid black;
+    color: white;
+}
